@@ -4,6 +4,7 @@ exports.up = (knex, Promise) => {
       table.increments('id').primary()
       table.string('first_name')
       table.string('last_name')
+      table.string('address')
       table.increments('shareholder_number')
 
     })
